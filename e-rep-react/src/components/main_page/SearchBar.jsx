@@ -16,6 +16,7 @@ import {
   KeyboardArrowDown as ArrowDownIcon,
   Assessment as AssessmentIcon,
 } from "@mui/icons-material";
+import { useNavigate } from "react-router";
 
 export const SearchBar = () => {
   const theme = mainTheme;
@@ -23,6 +24,7 @@ export const SearchBar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [selectedOption, setSelectedOption] = useState("Facebook");
   const options = ["Facebook", "Instagram", "TikTok"];
+  const navigate = useNavigate();
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -101,6 +103,7 @@ export const SearchBar = () => {
             px: 4,
             width: isMobile ? "100%" : "auto",
           }}
+          onClick={() => navigate("/dashboard")}
         >
           Analyze
         </Button>
