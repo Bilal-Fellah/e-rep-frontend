@@ -4,6 +4,7 @@ import { HeroSection } from "../components/main_page/HeroSection";
 import { BottomHero } from "../components/main_page/BottomHero";
 import { mainTheme } from "../themes/MainTheme";
 import { SearchBar } from "../components/main_page/SearchBar";
+import ReputationStats from "../components/main_page/ReputationStats";
 
 export const MainPage = () => {
   const theme = mainTheme;
@@ -26,7 +27,9 @@ export const MainPage = () => {
 
             <SearchBar />
 
-            <BottomHero />
+            {/* <BottomHero /> */}
+            <Box my={3} />
+            <ReputationStats />
           </Box>
         </Container>
       </ThemeProvider>{" "}
