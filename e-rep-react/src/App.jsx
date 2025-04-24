@@ -4,13 +4,13 @@ import { Header } from "./layouts/Navigation/Header";
 import { Dashboard } from "./pages/Dashboard";
 import { MainPage } from "./pages/MainPage";
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<MainLayout />}>
       <Route index element={<MainPage />} />
