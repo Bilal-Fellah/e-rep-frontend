@@ -1,7 +1,7 @@
 {
-  "homepage": "http://Bilal-Fellah.github.io/e-rep-frontend",
+  "homepage": "https://bilal-fellah.github.io/e-rep-frontend",
   "name": "e-rep-react",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
