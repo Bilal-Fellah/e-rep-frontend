@@ -162,11 +162,11 @@ const theme = createTheme({
 const sampleComments = [
   {
     id: 1,
-    author: "John Smith",
+    author: "Mohamed Benali",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-15",
     content:
-      "I absolutely love this product! It has exceeded all my expectations and the customer service was excellent.",
+      "Wah, had lproduit mazal! Khdemt m3ah 3la 7el, w service mte3hom zwin bzf!",
     sentiment: "positive",
     source: "Facebook",
     platform: "social",
@@ -175,11 +175,11 @@ const sampleComments = [
   },
   {
     id: 2,
-    author: "Sarah Johnson",
+    author: "Fatima Zohra",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-14",
     content:
-      "The service was okay, but I expected more features for the price I paid.",
+      "Service mzyan, walakine 3andi chwiya dyal features li kont n7ess behom, w hada bessah 3la had l3amane.",
     sentiment: "neutral",
     source: "Google Review",
     platform: "review",
@@ -188,11 +188,11 @@ const sampleComments = [
   },
   {
     id: 3,
-    author: "Michael Brown",
+    author: "Karim Boudiaf",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-13",
     content:
-      "Terrible experience. The product broke after just two days and customer support was unresponsive.",
+      "Wah hada khedma mashi zwin! Lproduit t7arek men juj nharat, w service mte3hom ma3endhomch wa9t yjawbou 3la telifoun.",
     sentiment: "negative",
     source: "Twitter",
     platform: "social",
@@ -201,11 +201,11 @@ const sampleComments = [
   },
   {
     id: 4,
-    author: "Emily Davis",
+    author: "Amina Boukhelifa",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-12",
     content:
-      "Great value for money. I would definitely recommend this to my friends and family.",
+      "Mazal! Had lproduit 3endou valeur, w nhar nhar n9oul l 7abibi w 3ayleti 3lih.",
     sentiment: "positive",
     source: "Trustpilot",
     platform: "review",
@@ -214,11 +214,11 @@ const sampleComments = [
   },
   {
     id: 5,
-    author: "David Wilson",
+    author: "Yacine Belkacem",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-11",
     content:
-      "Not sure if this was worth the investment. Some features are good but others need improvement.",
+      "Ma3rafch wach hada yestah9 3la had lflous, chwiya dyal features zwinin walakine 3andhom bzf dyal l7ajat li 7ajin behom.",
     sentiment: "neutral",
     source: "YouTube",
     platform: "social",
@@ -227,10 +227,10 @@ const sampleComments = [
   },
   {
     id: 6,
-    author: "Jennifer Lee",
+    author: "Nadia Hamidi",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-10",
-    content: "Worst purchase I've ever made. Avoid this company at all costs!",
+    content: "Wah hada akher 7aja chtriha! Matchoufouch m3ahom!",
     sentiment: "negative",
     source: "Yelp",
     platform: "review",
@@ -239,11 +239,11 @@ const sampleComments = [
   },
   {
     id: 7,
-    author: "Robert Taylor",
+    author: "Bilal Saadi",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-09",
     content:
-      "I've been using this for a month now and I'm very satisfied with the results.",
+      "Ana m3a had lproduit chhar kamel, w mazal! Khdem m3ana bzf f had l3amane.",
     sentiment: "positive",
     source: "Instagram",
     platform: "social",
@@ -252,10 +252,10 @@ const sampleComments = [
   },
   {
     id: 8,
-    author: "Lisa Anderson",
+    author: "Samira Khelifi",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-08",
-    content: "The product is fine but the shipping took longer than expected.",
+    content: "Lproduit zwin, walakine ldelivery tawel bzf wsal l Oran.",
     sentiment: "neutral",
     source: "Amazon",
     platform: "review",
@@ -264,11 +264,11 @@ const sampleComments = [
   },
   {
     id: 9,
-    author: "Thomas Martin",
+    author: "Rachid Meziane",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-07",
     content:
-      "Disappointed with the quality. Not as advertised and feels cheaply made.",
+      "Wah hada mashi li kanou 9alou! Lqualité mashi zwin w 7essit rou7i mghroub.",
     sentiment: "negative",
     source: "Facebook",
     platform: "social",
@@ -277,11 +277,11 @@ const sampleComments = [
   },
   {
     id: 10,
-    author: "Jessica White",
+    author: "Djamila Benali",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-06",
     content:
-      "Excellent product and fast delivery. Will definitely buy from this company again!",
+      "Mazal! Lproduit zwin w ldelivery sar3a wsal l Constantine. Nchallah nchri menhou mara okhra!",
     sentiment: "positive",
     source: "Google Review",
     platform: "review",
@@ -290,10 +290,10 @@ const sampleComments = [
   },
   {
     id: 11,
-    author: "Kevin Harris",
+    author: "Sofiane Chaoui",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-05",
-    content: "It's alright. Does what it says but nothing special.",
+    content: "Mzyan, ykhdem li 3endou ykhdem, walakine mafihch 7aja khasse.",
     sentiment: "neutral",
     source: "Twitter",
     platform: "social",
@@ -302,11 +302,11 @@ const sampleComments = [
   },
   {
     id: 12,
-    author: "Amanda Clark",
+    author: "Leila Boukadoum",
     avatar: "/placeholder.svg?height=40&width=40",
     date: "2023-05-04",
     content:
-      "Horrible customer service. They refused to honor their return policy.",
+      "Service mte3hom mashi zwin! Ma3andhomch respect w ma3andhomch politesse!",
     sentiment: "negative",
     source: "Trustpilot",
     platform: "review",
